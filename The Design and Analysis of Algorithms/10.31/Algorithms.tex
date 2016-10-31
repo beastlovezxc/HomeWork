@@ -1,0 +1,40 @@
+%!TeX program = xelatex
+%!TeX encoding = utf-8
+\documentclass{ctexart}
+	\usepackage{fourier}
+	\usepackage{amsmath}
+	\usepackage{anysize}
+	\usepackage[level]{datetime}
+	\usepackage{lettrine}%首字下沉
+	\usepackage{fontspec}
+	\usepackage{tikz}%图形处理
+	\usepackage{caption}%标记
+	\usepackage{capt-of}%标记
+	\usepackage[T1]{fontenc}
+	\marginsize{2cm}{2cm}{2cm}{2cm}
+	\newdateformat{ukdate}{\ordinaldate{\THEDAY} \monthname[\THEMONTH] \THEYEAR}%日月年
+	\title{算法分析与设计作业}
+	\author{陈斌 31617019}%陈斌  学号31617019
+	\date{\ukdate\today}
+
+	\begin{document}
+		\maketitle
+		\subsection*{}
+			\textbf{11.2-1}
+			\textnormal{假设用一个散列函数$h$将$n$个不同的关键字散列到一个长度为$m$的数组$T$中。假设采用的是简单均匀散列，那么期望的冲突数是多少？更准确地，集合${{k,l}:k\neq l,且h(k)=h(l)}$基的期望值是多少？}
+		\subsection*{解:}
+			定义随机指示器变量$X_kl=I{h(k)=h(l)}$,在简单均匀散列的假设下，有$Pr{h(k)=h(l)}=\frac{1}{m}$从而根据引理$5.1$,有$E[X_kl]=\frac{1}{m}$。
+			那么总的期望值
+			
+				$E[Y] = E\lceil\varSigma_{k\neq l}X_kl\rceil
+				     = \varSigma_{k\neq l}E[X_kl]
+				     = \frac{n(n-1)}{2}\cdot \frac{1}{m}
+				     = \frac{n(n-1)}{2m}$
+
+		\subsection*{}
+			\textbf{11.3-4}
+			\textnormal{考虑一个大小为$m=1000$的散列表和一个对应的散列函数$h(k)=\lfloor m(kA mod 1)\rfloor$,其中$A=(\sqrt{5}-1)/2$,试计算关键字$61$、$62$、$63$、$64$、$65$被映射到的位置。}
+		\subsection*{解:}
+			根据散列公式得出关键字$61$、$62$、$63$、$64$、$65$被映射到的位置分别为$700$、$318$、$936$、$554$、$172$。
+			附实现程序。
+	\end{document}

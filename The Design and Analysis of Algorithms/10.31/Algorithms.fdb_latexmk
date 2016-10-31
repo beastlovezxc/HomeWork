@@ -1,7 +1,7 @@
 # Fdb version 3
-["pdflatex"] 1477913875 "Algorithms.tex" "Algorithms.pdf" "Algorithms" 1477913985
+["pdflatex"] 1477916446 "Algorithms.tex" "Algorithms.pdf" "Algorithms" 1477916449
   "/Library/Fonts/Songti.ttc" 1470021522 66954320 afb3198e641fa1b263f1b34aa518e75d ""
-  "/dev/null" 1477913985 0 d41d8cd98f00b204e9800998ecf8427e ""
+  "/dev/null" 1477916448 0 d41d8cd98f00b204e9800998ecf8427e ""
   "/usr/local/texlive/2016/texmf-dist/fonts/map/fontname/texfonts.map" 1272929888 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
   "/usr/local/texlive/2016/texmf-dist/fonts/tfm/public/fourier/fourier-bb.tfm" 1136768653 560 af53a501c08f2f2cbf74fa511e7dbc5c ""
   "/usr/local/texlive/2016/texmf-dist/fonts/tfm/public/fourier/fourier-mex.tfm" 1136768653 1544 661995f02f3b10e57bb96f5c64c940e4 ""
@@ -9,7 +9,6 @@
   "/usr/local/texlive/2016/texmf-dist/fonts/tfm/public/fourier/futmi.tfm" 1136768653 3908 134bee7e89e5ea037d022133b5d70a90 ""
   "/usr/local/texlive/2016/texmf-dist/fonts/tfm/public/fourier/futmii.tfm" 1136768653 4268 369df562297bf2e301343889d3c1c433 ""
   "/usr/local/texlive/2016/texmf-dist/fonts/tfm/public/fourier/futr8t.tfm" 1136768653 16984 6d4d92d3efaef5cab6a470d5d5548d56 ""
-  "/usr/local/texlive/2016/texmf-dist/fonts/tfm/public/fourier/futro8t.tfm" 1136768653 17116 7b0335062f61ff6ce9e0d2f0fa58cf5d ""
   "/usr/local/texlive/2016/texmf-dist/fonts/tfm/public/fourier/futsy.tfm" 1136768653 2072 49145300fcadcc756b7349fc6e6c8913 ""
   "/usr/local/texlive/2016/texmf-dist/fonts/tfm/public/latex-fonts/lasy6.tfm" 1136768653 520 4889cce2180234b97cad636b6039c722 ""
   "/usr/local/texlive/2016/texmf-dist/fonts/tfm/public/lm/ec-lmr10.tfm" 1254269338 12056 7e13df7fe4cbce21b072ba7c4f4deb6e ""
@@ -173,9 +172,9 @@
   "/usr/local/texlive/2016/texmf-dist/web2c/texmf.cnf" 1463093894 31953 b9489e6e586f798610c60aec1f5ec548 ""
   "/usr/local/texlive/2016/texmf-var/web2c/xetex/xelatex.fmt" 1474349083 3520372 ddbb4ba42c736b262f5d605d38beb669 ""
   "/usr/local/texlive/2016/texmf.cnf" 1463979140 577 2938757e76f31531e65cc647e3507693 ""
-  "Algorithms.aux" 1477913879 8 a94a2480d3289e625eea47cd1b285758 ""
-  "Algorithms.tex" 1476863471 9206 19c4803fb19fe61ce5da910ee207c65b ""
+  "Algorithms.aux" 1477916449 8 a94a2480d3289e625eea47cd1b285758 ""
+  "Algorithms.tex" 1477916445 1747 b8c901a1b5356c821463615f79265ed7 ""
   (generated)
-  "Algorithms.aux"
-  "Algorithms.log"
   "Algorithms.pdf"
+  "Algorithms.log"
+  "Algorithms.aux"

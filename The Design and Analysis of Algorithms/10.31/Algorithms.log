@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016) (preloaded format=xelatex 2016.9.20)  31 OCT 2016 19:37
+This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016) (preloaded format=xelatex 2016.9.20)  31 OCT 2016 20:20
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1907,17 +1907,18 @@ LaTeX Font Info:    Font shape `U/futm/m/n' will be
 (Font)              scaled to size 6.43999pt on input line 24.
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
 (Font)              scaled to size 4.59999pt on input line 24.
+Missing character: There is no 且 in font futr8t!
  [1
 
-] [2]
+]
 (./Algorithms.aux) ) 
 Here is how much of TeX's memory you used:
- 33443 strings out of 493591
- 683678 string characters out of 6143546
- 680538 words of memory out of 5000000
- 36380 multiletter control sequences out of 15000+600000
- 66699 words of font info for 69 fonts, out of 8000000 for 9000
+ 33332 strings out of 493591
+ 682064 string characters out of 6143546
+ 639185 words of memory out of 5000000
+ 36270 multiletter control sequences out of 15000+600000
+ 62444 words of font info for 68 fonts, out of 8000000 for 9000
  1347 hyphenation exceptions out of 8191
- 65i,6n,92p,10437b,550s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 65i,6n,92p,10437b,263s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on Algorithms.pdf (2 pages).
+Output written on Algorithms.pdf (1 page).
